@@ -1,0 +1,35 @@
+body{
+    background-color: #4f4f4f;
+    height: 100vh;
+}
+.keys{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.key{
+    display: flex;
+    flex-direction: column;
+    width: 88px;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 15px;
+}
+.key>button{
+    width: 70px;
+    height: 55px;
+    border-radius: 15px;
+    font-size: 24px;
+    background-color: #3f3f3f;
+    border: 5px solid grey;
+    transition: all  0.1s;
+}
+
+.active>button{
+    border: 7px solid rgb(249, 255, 70);
+   transform: scale(1.1);
+
+}
